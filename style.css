@@ -364,7 +364,7 @@ input[text]{
 }
 
 input[type=submit] {
-    width: 107%;
+    width: 100%;
 }
 
 select{
