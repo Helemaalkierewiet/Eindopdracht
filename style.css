@@ -340,7 +340,8 @@ label {
 input[type=text] {
     border: 2px solid black;
     border-radius: 8px;
-   
+    /*!!!!!*/
+    width: 120%;
     font-size:0.9rem;
 }
 
@@ -348,13 +349,14 @@ input[type=text] {
     border: 2px solid black;
     border-radius: 8px;
     font-size:0.9rem;
-    width: 500%
+    width: 550%
 }
 
 input[type=date] {
     border: 2px solid black;
     border-radius: 8px;
     font-size:0.9rem;
+    width: 120%;
   }
 
 input[text]{
@@ -463,6 +465,19 @@ select{
         border-radius: 8px;
         font-size:0.9rem;
         width: 140%;
+    }
+    /*!!!!!!!!*/
+        input[type=text] {
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    input[type=date] {
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        width: 100%;
     }
     .verticalForum {
         display: flex;
